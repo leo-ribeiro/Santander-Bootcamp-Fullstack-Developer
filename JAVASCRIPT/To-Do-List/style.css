@@ -9,5 +9,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(252, 19, 58);
+    background-color: #0b182f;
+}
+
+h1 {
+    color: white;
+}
+
+#lista {
+    
 }
