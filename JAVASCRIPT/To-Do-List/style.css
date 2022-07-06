@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
+@import url('http://fonts.cdnfonts.com/css/chloreal');
+
 * {
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 body {
@@ -13,9 +15,12 @@ body {
 }
 
 h1 {
-    color: white;
+    color: #28a745;
+    font-family: 'Chloreal', sans-serif;
+    font-size: 100px;
 }
 
 #lista {
-    
+    font-family: 'Open Sans', sans-serif;
+                                                
 }
