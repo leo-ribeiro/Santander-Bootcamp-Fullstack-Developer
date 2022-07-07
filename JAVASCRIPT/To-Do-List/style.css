@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
-@import url('http://fonts.cdnfonts.com/css/chloreal');
+@import url('http://fonts.cdnfonts.com/css/funkrocker');
 
 * {
     
@@ -16,11 +16,29 @@ body {
 
 h1 {
     color: #28a745;
-    font-family: 'Chloreal', sans-serif;
+    font-family: 'Funkrocker', sans-serif;
     font-size: 100px;
 }
 
 #lista {
     font-family: 'Open Sans', sans-serif;
                                                 
+}
+
+.add-tarefa {
+    background-color: #28a745;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+
+button {
+    background-color: #28a745;
+    width: 100px;
+    height: 35px;
+    color: white;
+}
+
+#tarefa-form {
+    
 }
