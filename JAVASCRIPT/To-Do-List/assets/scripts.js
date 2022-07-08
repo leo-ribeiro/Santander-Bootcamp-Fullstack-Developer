@@ -6,6 +6,8 @@ form.onsubmit = function (e) {
 	const inputField = document.getElementById('task-input');
 	addTask(inputField.value);
 	form.reset();
+	const deleteField = document.getElementById('delete-input');
+	removeChild(deleteInput.value);
 };
 
 function addTask(description) {
