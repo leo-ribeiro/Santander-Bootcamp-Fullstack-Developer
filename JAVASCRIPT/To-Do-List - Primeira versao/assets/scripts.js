@@ -1,5 +1,6 @@
 const form = document.getElementById('task-form');
 const taskList = document.getElementById('tasks');
+let botaoRemover = document.querySelector(".botao__remover")
 
 form.onsubmit = function (e) {
 	e.preventDefault();
@@ -29,3 +30,19 @@ function addTask(description) {
 
 	taskList.appendChild(taskContainer);
 }
+
+botaoRemover.addEventListener("click", () => {
+	let valorDoInput = document.querySelector("#tarefa").value;
+	if (itemClicado == false) {
+		if (valorDoInput == '' || valorDoInput == null) {
+			alert("Digite alguma tarefa a ser excluída.");
+			return;
+		}
+		let item = document.querySelectorAll("ul .lista__itens");
+		item.forEach((elemento) => {
+			if (valorDoInput === elemento.textContent) {
+				listaDeItens.removeChild(elemento);
+				document.querySelector("#tarefa").value = '';
+			}
+		})
+	})	
