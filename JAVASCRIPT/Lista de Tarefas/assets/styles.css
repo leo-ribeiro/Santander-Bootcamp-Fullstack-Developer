@@ -1,5 +1,5 @@
 :root{
-    --lilas: #662F2F;
+    --lilas: #7E139C;
     --bege-claro: #F0EBE3;
     --branco: #FFF;
     --cinza-claro: #F0EBE3;
@@ -40,13 +40,15 @@ body{
 
 .principal__tarefa{
     font-family: var(--fonte-roboto);
-    color: #E2C97C;
+    color: #FFF;
+    font-size: 30px;
 }
 
 .titulo__principal{
     font-family: var(--fonte-gentium);
     text-align: center;
-    color: #E2C97C;
+    color: #FFF;
+    font-size: 40px;
 }
 
 .botao__remover{
@@ -88,7 +90,7 @@ body{
 }
 
 .lista__itens:hover{
-    background-color: var(--branco);
+    background-color: var(--lilas);
     transition: 0.3s;
 }
 
