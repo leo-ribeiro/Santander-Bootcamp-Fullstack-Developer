@@ -7,9 +7,9 @@
     --fonte-gentium: 'Gentium Book Plus', serif;
     --verde-claro: #90C8AC;
     --verde-medio: #53BF9D;
-    --verde-escuro: #377D71;
+    --verde-escuro: #139C39;
     --vermelho: #F94C66;
-    --vermelho-escuro: #B20600;
+    --vermelho-escuro: #DB0707;
 }
 
 body{
@@ -33,9 +33,24 @@ body{
     position: fixed;
 }
 
+form {
+    text-align: center;
+    height: 50px;
+    
+}
+
+#botoes {
+    
+}
+
+#tarefa {
+    height: 30px;
+}
+
 .principal__input{
     margin-bottom: 1rem;
     width: 40vw;
+    height: 100vh;
 }
 
 .principal__tarefa{
@@ -52,7 +67,7 @@ body{
 }
 
 .botao__remover{
-    background-color: var(--vermelho);
+    background-color: var(--vermelho-escuro);
     border: none;
     border-radius: 1rem;
     padding: 0.6rem;
@@ -60,7 +75,7 @@ body{
 }
 
 .botao__adicionar{
-    background-color: var(--verde-claro); 
+    background-color: var(--verde-escuro); 
     border: none;
     border-radius: 1rem;
     padding: 0.6rem;
