@@ -6,15 +6,15 @@
     --fonte-roboto: 'Roboto', sans-serif;
     --fonte-gentium: 'Gentium Book Plus', serif;
     --verde-claro: #62FB80;
-    --verde-medio: #53BF9D;
-    --verde-escuro: #307A3F;
+    --verde-medio: #17CC42;
+    --verde-escuro: #0B6620;
     --vermelho: #F94C66;
     --vermelho-escuro: #DB0707;
     --azul-claro: #20BDF5;
 }
 
 body{
-    background-color: var(--verde-escuro);
+    background-color: #212121;
 }
 
 .principal{
@@ -49,6 +49,9 @@ form {
 }
 
 .principal__input{
+    background-color: #c1d3c4;
+    color: #FFF;
+    font-size: 20px;
     margin-bottom: 1rem;
     width: 40vw;
     height: 100vh;
@@ -56,14 +59,14 @@ form {
 
 .principal__tarefa{
     font-family: var(--fonte-roboto);
-    color: #62FB80;
+    color: #FFF;
     font-size: 30px;
 }
 
 .titulo__principal{
     font-family: var(--fonte-gentium);
     text-align: center;
-    color: #62FB80;
+    color: #FFF;
     font-size: 40px;
 }
 
@@ -76,7 +79,7 @@ form {
 }
 
 .botao__adicionar{
-    background-color: var(--verde-claro); 
+    background-color: var(--verde-medio); 
     border: none;
     border-radius: 1rem;
     padding: 0.6rem;
@@ -85,13 +88,13 @@ form {
 }
 
 .botao__remover:hover{
-    background-color: var(--vermelho-escuro);
+    background-color: var(--vermelho);
     color: var(--bege-claro);
     transition: 0.3s;
 }
 
 .botao__adicionar:hover{
-    background-color: var(--verde-escuro);
+    background-color: var(--verde-claro);
     color: var(--bege-claro);
     transition: 0.3s;
 }
