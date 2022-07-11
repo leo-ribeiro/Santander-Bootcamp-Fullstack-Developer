@@ -5,15 +5,16 @@
     --cinza-claro: #F0EBE3;
     --fonte-roboto: 'Roboto', sans-serif;
     --fonte-gentium: 'Gentium Book Plus', serif;
-    --verde-claro: #90C8AC;
+    --verde-claro: #62FB80;
     --verde-medio: #53BF9D;
-    --verde-escuro: #139C39;
+    --verde-escuro: #307A3F;
     --vermelho: #F94C66;
     --vermelho-escuro: #DB0707;
+    --azul-claro: #20BDF5;
 }
 
 body{
-    background-color: var(--lilas);
+    background-color: var(--verde-escuro);
 }
 
 .principal{
@@ -55,14 +56,14 @@ form {
 
 .principal__tarefa{
     font-family: var(--fonte-roboto);
-    color: #FFF;
+    color: #62FB80;
     font-size: 30px;
 }
 
 .titulo__principal{
     font-family: var(--fonte-gentium);
     text-align: center;
-    color: #FFF;
+    color: #62FB80;
     font-size: 40px;
 }
 
@@ -75,7 +76,7 @@ form {
 }
 
 .botao__adicionar{
-    background-color: var(--verde-escuro); 
+    background-color: var(--verde-claro); 
     border: none;
     border-radius: 1rem;
     padding: 0.6rem;
@@ -105,7 +106,7 @@ form {
 }
 
 .lista__itens:hover{
-    background-color: var(--lilas);
+    background-color: var(--verde-claro);
     transition: 0.3s;
 }
 
@@ -114,5 +115,5 @@ form {
 }
 
 .item__selecionado{
-    background-color: #fdfdfd;
+    background-color: var(--verde-claro);
 }
