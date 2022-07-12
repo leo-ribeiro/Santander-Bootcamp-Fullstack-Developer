@@ -50,7 +50,7 @@ form {
 
 .principal__input{
     background-color: #c1d3c4;
-    color: #1113A6;
+    color: #3712A6;
     font-size: 20px;
     margin-bottom: 1rem;
     width: 40vw;
@@ -66,7 +66,7 @@ form {
 .titulo__principal{
     font-family: var(--fonte-gentium);
     text-align: center;
-    color: #FFF;
+    color: #3712A6;
     font-size: 40px;
 }
 
@@ -118,5 +118,5 @@ form {
 }
 
 .item__selecionado{
-    background-color: var(--verde-claro);
+    background-color: #FFF;
 }
