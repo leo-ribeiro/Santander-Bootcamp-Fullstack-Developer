@@ -10,6 +10,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: rgb(176, 213, 236);
+    font-weight: bold;
 }
 
 button {
@@ -32,6 +33,5 @@ button {
     display: flex;
     align-items: center;
     margin: 0 20px;
-    font-weight: bold;
     font-size: 16pt;
 }
